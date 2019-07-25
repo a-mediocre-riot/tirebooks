@@ -20,6 +20,6 @@ var userSchema = mongoose.Schema({
 
 userSchema.plugin(AutoIncrement, { inc_field: 'user_id' });
 
-var User = mongoose.model('user', userSchema);
+var user = mongoose.model('user', userSchema);
 
-module.exports = User;
+module.exports = user;

@@ -29,10 +29,13 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="models\listItemModel.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="models\userModel.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="routes\api-routes.js">
+    <Content Include="routes\userRoutes.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="app.js" />

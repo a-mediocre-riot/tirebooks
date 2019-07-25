@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 var routes = require('./routes/index');
-var apiRoutes = require("./routes/api-routes");
+var apiRoutes = require("./routes/userRoutes");
 
 var app = express();
 

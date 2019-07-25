@@ -9,7 +9,6 @@ router.get('/users', function (req, res) {
     });
 });
 
-
 // POST User
 router.post('/users', function (req, res) {
     console.log('post a user');
